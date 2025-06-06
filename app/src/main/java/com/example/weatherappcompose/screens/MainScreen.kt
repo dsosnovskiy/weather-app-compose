@@ -93,7 +93,7 @@ fun MainCard(
                 Text(
                     text = if (currentDay.value.currentTemp.isNotEmpty())
                         "${currentDay.value.currentTemp}°C"
-                    else "${currentDay.value.maxTemp}°C/${currentDay.value.minTemp}°C",
+                    else "${currentDay.value.maxTemp}/${currentDay.value.minTemp}°C",
                     fontSize = 65.sp,
                     color = Color.White
                 )
@@ -119,7 +119,7 @@ fun MainCard(
                         )
                     }
                     Text(
-                        text = "${currentDay.value.maxTemp}°C/${currentDay.value.minTemp}°C",
+                        text = "${currentDay.value.maxTemp}/${currentDay.value.minTemp}°C",
                         fontSize = 16.sp,
                         color = Color.White
                     )
